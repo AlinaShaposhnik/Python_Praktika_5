@@ -1,0 +1,4 @@
+lastname = (str(input("Введите вашу Фамилию: ")))
+firstname = (str(input("Введите ваше Имя: ")))
+otch = (str(input("Введите ваше Отчество: ")))
+print("Ф.И.О. :",(lastname[0] + "."),(firstname[0] + "."),(otch[0] + "." ))
