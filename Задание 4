@@ -24,18 +24,18 @@ strani = dict(
     Уганда = "Кампала",
     Южная_Корея = "Сеул")
 while hochet:
-country, stolit = r.choice(list(strani.items()))
-print(country)
-otvet = str(input("Столица "))
-if otvet == "Stop":
-print("Игра окончена")
-hochet = False
-break
-else:
-if otvet == stolit:
-print("Правильно!")
-plus += 1
-else:
-print("Неверно! Ответ:",stolit)
-minus += 1
-print("Счёт: +:", plus," -:", minus)
+    country, stolit = r.choice(list(strani.items()))
+    print(country)
+    otvet = str(input("Столица "))
+    if otvet == "Stop":
+        print("Игра окончена")
+        hochet = False
+        break
+    else:
+        if otvet == stolit:
+            print("Правильно!")
+            plus += 1
+        else:
+            print("Неверно! Ответ:",stolit)
+            minus += 1
+    print("Счёт: +:", plus," -:", minus)
